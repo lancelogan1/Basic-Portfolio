@@ -5,24 +5,75 @@
 }
 
 body{
-    background-image: url("background.jpg");
+    background-image: url("../images/background.JPG");
+    overflow-y: scroll;
 }
 
 .nav {
     z-index: 100;
     width: 100%;
     background: white;
+    display: inline-block;
+    height: 55px;
+}
+
+.links{
+    float: right;
+    clear: both;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+    position: absolute;
+    top: 0;
+}
+
+.lance{
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    margin-left: 20px;
+
+
+    
+}
+
+.aboutimg {
+    float: left;
+    padding: 20px;
+    margin: 20px;
 
 }
 
+.nav h1{
+    display: inline-block;
+    color: white;
+    
+}
 
+.content {
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Arial; 
+    color: #777777;
 
+}
 
+footer {
+    display: block;
+    background-color: #666666;
+    color: #777777;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    bottom: 0;
+}
 
-
-
-
-
+.about{
+    color: #4aaaa5;
+}
 
 
 
